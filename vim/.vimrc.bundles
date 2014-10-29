@@ -1,0 +1,25 @@
+filetype off
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" let Vundle manage Vundle, required
+Plugin 'gmarik/Vundle.vim'
+
+Plugin 'fatih/vim-go'
+Plugin 'Lokaltog/vim-easymotion'
+Plugin 'itchyny/lightline.vim'
+
+Bundle 'scrooloose/nerdtree'
+Bundle 'jistr/vim-nerdtree-tabs'
+Bundle 'kien/ctrlp.vim'
+Bundle 'tpope/vim-fugitive'
+Bundle 'scrooloose/nerdcommenter'
+Bundle 'Shougo/neocomplete.vim.git'
+Bundle 'Shougo/neosnippet'
+Bundle 'Shougo/neosnippet-snippets'
+Bundle 'chriskempson/base16-vim'
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
